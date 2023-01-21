@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+.container-navbar{
+    background-color: rgb(164, 151, 245);
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(27, 194, 55, 0.06);
+    z-index: 999;
+    top: 0px;
+}
+.container-navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar li {
+  list-style: none;
+  padding: 0px 50%;
+}
+#navbar li input{
+width: 400px;
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: antiquewhite;
+}
+
+.flexbox {
+  display: flex;
+}
+.flexbox-1 {
+  min-height: 250px;
+  width: 200px;
+  margin: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 5px 5px rgb(208, 218, 247);
+}
+.flexbox-1-1 {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.flexbox-2 {
+  min-height: 400px;
+  width: 1000px;
+  margin: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 5px 5px rgb(208, 218, 247);
+}
+.flexbox-3 {
+  min-height: 300px;
+  width: 100px;
+  margin: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 10px 5px rgb(208, 218, 247);
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(0, 0, 0);
+  margin: 5px 30px;
+  border-radius: 90px 90px 90px 90px;
+}
+.box3 {
+  width: 600px;
+  height: 300px;
+
+  margin: -100px 140px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px 20px 20px 20px;
+}
+.box4 {
+    width: 600px;
+    height: 220px;
+  
+    margin: -309px 140px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    
+    
+  }
